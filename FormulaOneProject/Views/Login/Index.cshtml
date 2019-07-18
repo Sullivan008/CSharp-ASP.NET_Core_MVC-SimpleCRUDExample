@@ -1,0 +1,42 @@
+﻿@model FormulaOneProject.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h4 align="center">Bejelentkezés</h4>
+<hr />
+<div class="row justify-content-md-center">
+    <div class="col-md-6">
+        <form asp-controller="Account" asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="UserName" class="control-label"></label>
+                    <input asp-for="UserName" class="form-control" />
+                    <span asp-validation-for="UserName" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Password" class="control-label"></label>
+                    <input asp-for="Password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="submit" value="Bejelentkezés" class="btn btn-primary btn-block" />
+                </div>
+                <div class="form-group col-md-6">
+                    <a asp-controller="Team" asp-action="Index" class="btn btn-secondary btn-block"><i class="fa fa-table"></i> Vissza a Listához</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<br />
+<h2 align="center" class="text-danger">@ViewBag.Message</h2>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

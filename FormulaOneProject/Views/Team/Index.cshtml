@@ -1,0 +1,69 @@
+﻿@model IEnumerable<FormulaOneProject.Models.TeamViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h1 align="center">Team Regisztráció - @User.Identity.Name</h1>
+}
+else
+{
+    <h1 align="center">Team Regisztráció</h1>
+}
+
+<br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearOfFoundation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfWinWorldChamp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPaidEntryFee)
+            </th>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <th>
+                    <a asp-action="AddOrEdit" class="btn btn-outline-success"><i class="far fa-plus-square"></i> Új csapat</a>
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YearOfFoundation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfWinWorldChamp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsPaidEntryFee)
+                </td>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <td>
+                        <a asp-action="AddOrEdit" asp-route-id="@item.TeamID"><i class="fa fa-marker fa-lg"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.TeamID" class="text-danger ml-1" onclick="return confirm('Valóban törölni szeretnéd az adott sort?')"><i class="fa fa-trash-alt fa-lg"></i></a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<h2 align="center" class="text-danger">@ViewBag.Message</h2>

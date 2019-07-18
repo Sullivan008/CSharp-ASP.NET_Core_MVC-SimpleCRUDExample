@@ -1,0 +1,16 @@
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Business.Entities.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.csprojAssemblyReference.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.csproj.CoreCompileInputs.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.AssemblyInfoInputs.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.AssemblyInfo.cs
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.deps.json
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.pdb
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Business.Entities.pdb
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.csproj.CopyComplete
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\obj\Debug\netcoreapp2.2\Core.Deploy.ApplicationDeploy.pdb
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Deploy.ApplicationDeploy\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb

@@ -1,0 +1,8 @@
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.deps.json
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.csproj.CoreCompileInputs.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.AssemblyInfoInputs.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.AssemblyInfo.cs
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb

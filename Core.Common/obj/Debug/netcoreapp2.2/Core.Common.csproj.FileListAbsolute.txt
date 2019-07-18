@@ -1,0 +1,12 @@
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.deps.json
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.pdb
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csprojAssemblyReference.cache
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CoreCompileInputs.cache
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfoInputs.cache
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfo.cs
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CopyComplete
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.dll
+C:\Users\kozakp\source\repos\FormulaOneProject\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.pdb
