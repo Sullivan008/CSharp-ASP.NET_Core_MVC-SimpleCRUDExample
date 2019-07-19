@@ -208,6 +208,20 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.WebUtilities/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -1704,6 +1718,9 @@
       "Business.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/Business.Entities.dll": {}
         },
@@ -1740,6 +1757,7 @@
         "dependencies": {
           "Business.Entities": "1.0.0",
           "Core.Handlers.BackEndExceptionHandler": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Microsoft.Extensions.Identity.Stores": "2.2.0"
@@ -1949,6 +1967,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Identity.xml",
         "microsoft.aspnetcore.identity.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.identity.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.2.0": {
+      "sha512": "PGJ8f8sE9vbnyPJpSCMYAjh1itkM8uL9QnkO5lQSSJGeyG4b1+zNoLS+leJgjGnlkTzgWPffc4OuqH7wsYahWw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
+        "microsoft.aspnetcore.identity.entityframeworkcore.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
     "Microsoft.AspNetCore.WebUtilities/2.2.0": {
@@ -5723,23 +5754,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kozakp\\.nuget\\packages\\": {},
+    "C:\\Users\\kozak\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\Business.Engine.csproj",
+      "projectUniqueName": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
       "projectName": "Business.Engine",
-      "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\Business.Engine.csproj",
-      "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\obj\\",
+      "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
+      "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5752,14 +5783,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {
-              "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj"
+            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
+              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj"
             },
-            "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj": {
-              "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj"
+            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {
+              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj"
             },
-            "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
+            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
             }
           }
         }

@@ -10,3 +10,11 @@ c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netco
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.csproj.CopyComplete
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.dll
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.deps.json
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.AssemblyInfoInputs.cache
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.AssemblyInfo.cs

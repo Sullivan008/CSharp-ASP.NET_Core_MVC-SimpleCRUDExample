@@ -1718,6 +1718,9 @@
       "Business.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/Business.Entities.dll": {}
         },
@@ -1741,6 +1744,7 @@
         "dependencies": {
           "Business.Entities": "1.0.0",
           "Core.Handlers.BackEndExceptionHandler": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Microsoft.Extensions.Identity.Stores": "2.2.0"
@@ -5730,23 +5734,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kozakp\\.nuget\\packages\\": {},
+    "C:\\Users\\kozak\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
+      "projectUniqueName": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
       "projectName": "Core.Deploy.ApplicationDeploy",
-      "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
-      "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\obj\\",
+      "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
+      "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5759,8 +5763,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
+            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
             }
           }
         }

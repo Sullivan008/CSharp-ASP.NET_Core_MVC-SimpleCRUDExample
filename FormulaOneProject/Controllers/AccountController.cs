@@ -4,7 +4,6 @@ using Business.Entities.DataBaseEntities;
 using FormulaOneProject.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Threading.Tasks;
 
 namespace FormulaOneProject.Controllers
@@ -51,6 +50,8 @@ namespace FormulaOneProject.Controllers
             return RedirectToAction("Index", "Login");
         }
 
+        [ValidateAntiForgeryToken]
+        [HttpPost]
         public async Task<IActionResult> Login([Bind("UserName,Password")] LoginViewModel userCredentials)
         {
             bool result = await _userEngine.Login(SignInManager, userCredentials.UserName, userCredentials.Password);

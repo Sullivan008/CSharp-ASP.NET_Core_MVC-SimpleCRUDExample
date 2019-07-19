@@ -14,3 +14,17 @@ c:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\obj\Debug\ne
 c:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb
 c:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
 c:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.AssemblyInfo.cs
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.deps.json
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Business.Entities.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Business.Entities.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csproj.CopyComplete
+C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb

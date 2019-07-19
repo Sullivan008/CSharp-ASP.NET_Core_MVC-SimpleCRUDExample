@@ -1131,6 +1131,9 @@
         }
       },
       "Business.Entities/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+        },
         "runtime": {
           "Business.Entities.dll": {}
         }
@@ -1144,6 +1147,7 @@
         "dependencies": {
           "Business.Entities": "1.0.0",
           "Core.Handlers.BackEndExceptionHandler": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Microsoft.Extensions.Identity.Stores": "2.2.0"
