@@ -11,15 +11,20 @@ namespace Data.DataAccessLayer.DataRepositories.Repositories
 {
     public class TeamRepository : ITeamRepository
     {
-        public FormulaContext _ctx { get; set; }
+        public FormulaContext ctx { get; set; }
 
+        /// <summary>
+        ///     Async Method - A paraméterben átadott Team objektumot beszúrja az adatbázisba.
+        /// </summary>
+        /// <param name="newTeam">A beszúrandó Team objektum.</param>
+        /// <returns>A beszúrt Team objektum. Result = NULL - Az objektum beszúrása sikertelen</returns>
         public async Task<Team> Add(Team newTeam)
         {
             try
             {
-                _ctx.Add(newTeam);
+                ctx.Add(newTeam);
 
-                await _ctx.SaveChangesAsync();
+                await ctx.SaveChangesAsync();
 
                 return newTeam;
             }
@@ -31,11 +36,19 @@ namespace Data.DataAccessLayer.DataRepositories.Repositories
                 return null;
             }
         }
+
+        /// <summary>
+        ///    Async Method - Lekérdezi az összes Team objektumot az adatbázisból.
+        /// </summary>
+        /// <returns>
+        ///     Az adatbázisból lekérdezett Team objektum halmaz. 
+        ///     Result = NULL - Az objektum halmaz lekérdezése sikertelen.
+        /// </returns>
         public async Task<IEnumerable<Team>> GetAllTeam()
         {
             try
             {
-                return await _ctx.Team.ToListAsync();
+                return await ctx.Team.ToListAsync();
             }
             catch(Exception ex)
             {
@@ -46,11 +59,19 @@ namespace Data.DataAccessLayer.DataRepositories.Repositories
             }
         }
 
+        /// <summary>
+        ///     Async Method - A paraméterben átadott ID-jú Team objektum lelkérdezése az adatbázisból.
+        /// </summary>
+        /// <param name="id">A Team ID-ja, amelyet le kell kérdezni az adatbázisból.</param>
+        /// <returns>
+        ///     A paraméterben átadott ID-jú adatbázisból lekérdezett Team.
+        ///     Result = NULL - Az objektum lekérdezése sikertelen.
+        /// </returns>
         public async Task<Team> GetTeamByID(int id)
         {
             try
             {
-                return await _ctx.Team.FindAsync(id);
+                return await ctx.Team.FindAsync(id);
             }
             catch (Exception ex)
             {
@@ -61,13 +82,18 @@ namespace Data.DataAccessLayer.DataRepositories.Repositories
             }
         }
 
+        /// <summary>
+        ///     Frissíti a paraméterben átaditt Team objektumot az adatbázisban.
+        /// </summary>
+        /// <param name="updatedTeam">A frissítendő Team objektum.</param>
+        /// <returns>A frissített Team objektum. Result = NULL - Az objektum frissítése sikertelen.</returns>
         public async Task<Team> Update(Team updatedTeam)
         {
             try
             {
-                _ctx.Update(updatedTeam);
+                ctx.Update(updatedTeam);
 
-                await _ctx.SaveChangesAsync();
+                await ctx.SaveChangesAsync();
 
                 return updatedTeam;
             }
@@ -80,13 +106,18 @@ namespace Data.DataAccessLayer.DataRepositories.Repositories
             }
         }
 
+        /// <summary>
+        ///     A paraméterben átadott Team objektum törlése az adatbázisból.
+        /// </summary>
+        /// <param name="deletedTeam">A törlendő Team objektum.</param>
+        /// <returns>A törölt Team objektum. Result = NULL - Az objektum törlése sikertelen.</returns>
         public async Task<Team> Delete(Team deletedTeam)
         {
             try
             {
-                _ctx.Team.Remove(deletedTeam);
+                ctx.Team.Remove(deletedTeam);
 
-                await _ctx.SaveChangesAsync();
+                await ctx.SaveChangesAsync();
 
                 return deletedTeam;
             }

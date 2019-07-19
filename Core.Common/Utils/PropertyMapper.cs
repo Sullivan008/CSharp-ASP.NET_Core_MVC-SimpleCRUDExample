@@ -9,12 +9,12 @@ namespace Core.Common.Utils
     public static class PropertyMapper
     {
         /// <summary>
-        /// Property nevek összemappelése a forrás és a cél között.
+        ///     Property értékek összemappelése a forrás és a cél objektum között.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <typeparam name="U"></typeparam>
-        /// <param name="source">The source.</param>
-        /// <param name="destination">The destination.</param>
+        /// <typeparam name="T">A Forrás objektum típusa</typeparam>
+        /// <typeparam name="U">A cél objektum típusa</typeparam>
+        /// <param name="source">A cél objektum</param>
+        /// <param name="destination">A forrás objektum</param>
 
         public static void MapProperties<T, U>(T source, U destination) where T : class, new() where U : class, new()
         {
