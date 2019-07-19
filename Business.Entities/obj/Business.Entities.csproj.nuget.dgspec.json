@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {}
+    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
+    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
         "projectName": "Business.Entities",
-        "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
-        "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\obj\\",
+        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
+        "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[2.2.0, )"

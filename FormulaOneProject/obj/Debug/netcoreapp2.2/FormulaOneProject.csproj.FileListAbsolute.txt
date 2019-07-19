@@ -11,10 +11,7 @@ C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netco
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\FormulaOneProject.TagHelpers.input.cache
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\FormulaOneProject.TagHelpers.output.cache
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\FormulaOneProject.RazorCoreGenerate.cache
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
@@ -40,9 +37,6 @@ c:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\bin\Debug\netco
 c:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\bin\Debug\netcoreapp2.2\Business.Engine.pdb
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\bin\Debug\netcoreapp2.2\Core.Common.dll
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\bin\Debug\netcoreapp2.2\Core.Common.pdb
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Team\Delete.g.cshtml.cs
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Team\Details.g.cshtml.cs
-C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Team\Edit.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Team\Index.g.cshtml.cs
 C:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Team\AddOrEdit.g.cshtml.cs
 c:\Users\kozakp\source\repos\FormulaOneProject\FormulaOneProject\obj\Debug\netcoreapp2.2\Razor\Views\Login\Index.g.cshtml.cs

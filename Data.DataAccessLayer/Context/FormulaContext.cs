@@ -16,6 +16,17 @@ namespace Data.DataAccessLayer.Context
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+            modelBuilder.Entity<Team>()
+                .HasIndex(o => new { o.Name })
+                .IsUnique();
+
+            base.OnModelCreating(modelBuilder);
+
+        }
+
         public DbSet<Team> Team { get; set; }
     }
 }

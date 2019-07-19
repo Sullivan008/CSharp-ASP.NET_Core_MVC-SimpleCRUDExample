@@ -1,13 +1,10 @@
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.deps.json
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.dll
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\bin\Debug\netcoreapp2.2\Business.Entities.pdb
-c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.dll
-c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Identity.Stores.xml
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.csprojAssemblyReference.cache
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.csproj.CoreCompileInputs.cache
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.AssemblyInfoInputs.cache
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.AssemblyInfo.cs
-c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.csproj.CopyComplete
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.dll
 c:\Users\kozakp\source\repos\FormulaOneProject\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.pdb
 C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Business.Entities\obj\Debug\netcoreapp2.2\Business.Entities.dll

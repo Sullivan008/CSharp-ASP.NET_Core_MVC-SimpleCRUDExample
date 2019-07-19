@@ -2,6 +2,7 @@
 using Core.Deploy.ApplicationDeploy;
 using Core.Handlers.BackEndExceptionHandler;
 using Data.DataAccessLayer.Context;
+using FormulaOneProject.Models.ConfigModels;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -60,6 +61,8 @@ namespace FormulaOneProject
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = false;
             });
+
+            services.Configure<LoginConfigModel>(Configuration.GetSection("DevLoginConfig"));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

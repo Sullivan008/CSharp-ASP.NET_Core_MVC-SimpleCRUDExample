@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kozak\\.nuget\\packages\\": {},
+    "C:\\Users\\kozakp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+      "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
       "projectName": "Core.Handlers.BackEndExceptionHandler",
-      "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
-      "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\obj\\",
+      "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+      "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

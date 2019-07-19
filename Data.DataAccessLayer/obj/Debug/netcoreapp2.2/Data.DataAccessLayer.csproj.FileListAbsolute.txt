@@ -1,6 +1,4 @@
 C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Business.Entities.dll
-C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
 C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\kozakp\source\repos\FormulaOneProject\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.AssemblyInfoInputs.cache

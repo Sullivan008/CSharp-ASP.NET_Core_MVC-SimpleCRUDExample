@@ -106,6 +106,9 @@ namespace Data.DataAccessLayer.Migrations
 
                     b.HasKey("TeamID");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Team");
                 });
 

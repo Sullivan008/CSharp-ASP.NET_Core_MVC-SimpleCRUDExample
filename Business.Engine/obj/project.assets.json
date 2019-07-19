@@ -1719,6 +1719,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.Extensions.Identity.Stores": "2.2.0"
         },
         "compile": {
@@ -5754,23 +5755,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kozak\\.nuget\\packages\\": {},
+    "C:\\Users\\kozakp\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
+      "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\Business.Engine.csproj",
       "projectName": "Business.Engine",
-      "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
-      "packagesPath": "C:\\Users\\kozak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\obj\\",
+      "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\Business.Engine.csproj",
+      "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5783,14 +5784,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
-              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj"
+            "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {
+              "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj"
             },
-            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {
-              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj"
+            "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj": {
+              "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj"
             },
-            "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
+            "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+              "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
             }
           }
         }

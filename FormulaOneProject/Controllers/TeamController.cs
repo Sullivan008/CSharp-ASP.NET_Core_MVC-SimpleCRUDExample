@@ -50,16 +50,20 @@ namespace FormulaOneProject.Controllers
 
                 if(dto.TeamID == 0)
                 {
-                    if(await teamEngine.AddTeam(dto))
+                    if(!await teamEngine.AddTeam(dto))
                     {
                         ViewBag.Message = "A TEAM mentése sikertelen! Kérem próbálja újból!";
+
+                        return View(new TeamViewModel() { Years = GetYearsToNowYear(), YearOfFoundation = DateTime.Now.Year });
                     }
                 }
                 else
                 {
-                    if(await teamEngine.UpdateTeam(dto))
+                    if(!await teamEngine.UpdateTeam(dto))
                     {
                         ViewBag.Message = "A TEAM frissítése sikertelen! Kérem próbálja újból!";
+
+                        return View(new TeamViewModel() { Years = GetYearsToNowYear(), YearOfFoundation = DateTime.Now.Year });
                     }
                 }
     

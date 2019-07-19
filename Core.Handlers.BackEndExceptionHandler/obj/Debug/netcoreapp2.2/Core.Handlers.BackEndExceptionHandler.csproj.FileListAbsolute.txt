@@ -15,3 +15,4 @@ C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Proj
 C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
 C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
 C:\Users\kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.csprojAssemblyReference.cache
+c:\Users\kozakp\source\repos\FormulaOneProject\Core.Handlers.BackEndExceptionHandler\obj\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.csprojAssemblyReference.cache

@@ -2,8 +2,10 @@
 using Business.Engine.BusinessEngines.Interfaces;
 using Business.Entities.DataBaseEntities;
 using FormulaOneProject.Models;
+using FormulaOneProject.Models.ConfigModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 using System.Threading.Tasks;
 
 namespace FormulaOneProject.Controllers
@@ -16,18 +18,22 @@ namespace FormulaOneProject.Controllers
 
         private SignInManager<AppUser> SignInManager { get; set; }
 
-        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        private readonly IOptions<LoginConfigModel> _loginConfig;
+
+        public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IOptions<LoginConfigModel> loginConfig)
         {
             UserManager = userManager;
 
             SignInManager = signInManager;
+
+            _loginConfig = loginConfig;
 
             _userEngine = new UserEngine();
         }
 
         public async Task<IActionResult> Register()
         {
-            bool? result = await _userEngine.Register(UserManager, "admin", "f1test2018");
+            bool? result = await _userEngine.Register(UserManager, _loginConfig.Value.UserName, _loginConfig.Value.Password);
 
             if (result == null)
             {

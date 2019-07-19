@@ -13,7 +13,7 @@
             <input type="hidden" asp-for="TeamID" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <input asp-for="Name" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Egyedi név megadása kötelező! Ugyan olyan nevű csapat nem szerepelhet, ami már meg van adva!" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-row">

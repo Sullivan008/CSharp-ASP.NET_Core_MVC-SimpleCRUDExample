@@ -10,7 +10,7 @@ namespace FormulaOneProject.Models
         public int TeamID { get; set; }
 
         [Required(ErrorMessage = "A mező kitöltése kötelező!")]
-        [DisplayName("Név")]
+        [DisplayName("Egyedi név")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "A mező kitöltése kötelező!")]
