@@ -65,6 +65,7 @@ namespace FormulaOneProject.Controllers
         ///     Method - A Navigációt valósítja meg a Login/Index oldalra.
         /// </summary>
         /// <returns>Navigation -> Login/Index</returns>
+        [HttpGet("[controller]/Login")]
         public IActionResult NavigateLogin()
         {
             return RedirectToAction("Index", "Login");

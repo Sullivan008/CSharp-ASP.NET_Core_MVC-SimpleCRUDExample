@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj": {}
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj",
         "projectName": "Core.Common",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\Core.Common.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Common\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
-                "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj"
+              "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
+                "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
         "projectName": "Core.Handlers.BackEndExceptionHandler",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

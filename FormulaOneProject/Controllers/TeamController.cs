@@ -4,6 +4,7 @@ using Core.Common.Data.DTOs;
 using Core.Common.Utils;
 using Data.DataAccessLayer.Context;
 using FormulaOneProject.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -44,6 +45,7 @@ namespace FormulaOneProject.Controllers
         /// </summary>
         /// <param name="id">A szerkesztendő TeamID-ja. Default Value = 0</param>
         /// <returns>Team/AddOrEdit View</returns>
+        [Authorize]
         public IActionResult AddOrEdit(int id = 0)
         {
             /// Ha az ID 0, akkor új Team objektumot kell elkészíteni, ellenkező esetben meglévő Team objektumot kell szerkeszteni.
@@ -88,6 +90,7 @@ namespace FormulaOneProject.Controllers
         /// </returns>
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> AddOrEdit([Bind("TeamID,Name,YearOfFoundation,YearID,NumberOfWinWorldChamp,IsPaidEntryFee")] TeamViewModel team)
         {
             /// Vizsgálat, hogy a paraméterben kapott Modell, minden követelménynek megfelel.

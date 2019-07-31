@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj": {}
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
         "projectName": "Business.Entities",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
         "projectName": "Core.Deploy.ApplicationDeploy",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\Core.Deploy.ApplicationDeploy.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Deploy.ApplicationDeploy\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Deploy.ApplicationDeploy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -90,8 +90,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
-                "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
+              "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+                "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
               }
             }
           }
@@ -124,14 +124,14 @@
         }
       }
     },
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
         "projectName": "Core.Handlers.BackEndExceptionHandler",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -176,14 +176,14 @@
         }
       }
     },
-    "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+    "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj",
+        "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj",
         "projectName": "Data.DataAccessLayer",
-        "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj",
+        "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Data.DataAccessLayer\\obj\\",
+        "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -202,11 +202,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj": {
-                "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj"
+              "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
+                "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj"
               },
-              "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
-                "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj"
+              "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj": {
+                "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Handlers.BackEndExceptionHandler\\Core.Handlers.BackEndExceptionHandler.csproj"
               }
             }
           }

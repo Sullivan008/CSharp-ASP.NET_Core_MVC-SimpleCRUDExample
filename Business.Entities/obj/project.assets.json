@@ -3076,11 +3076,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
+      "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
       "projectName": "Business.Entities",
-      "projectPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\Business.Entities.csproj",
+      "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj",
       "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\kozakp\\source\\repos\\FormulaOneProject\\Business.Entities\\obj\\",
+      "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
