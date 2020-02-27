@@ -1,9 +1,0 @@
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\bin\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.deps.json
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\bin\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.dll
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.dll
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\bin\Debug\netcoreapp2.2\Core.Handlers.BackEndExceptionHandler.pdb
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\obj\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.csprojAssemblyReference.cache
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\obj\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.csproj.CoreCompileInputs.cache
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\obj\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.AssemblyInfoInputs.cache
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\obj\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.AssemblyInfo.cs
-C:\Users\kozakp\source\repos\FormulaOneProject\Core.Utils.EntityToVMMapper\obj\Debug\netcoreapp2.2\Core.Utils.EntityToVMMapper.csproj.CopyComplete

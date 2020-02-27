@@ -1,28 +1,42 @@
-﻿using Data.DataAccessLayer.Context;
+﻿using System.Threading.Tasks;
+using Data.DataAccessLayer.Context;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Core.Deploy.ApplicationDeploy
 {
-    public class ApplicationDeploy
+    public class MyMiddleware
     {
-        /// <summary>
-        ///     A DB Migration-t végrehajtó metódus.
-        /// </summary>
-        /// <param name="app">Objektum, amely biztosítja az alkalmazás konfigurálására szolgáló mechanizmusokat.</param>
-        public static void DataBaseMigration(IApplicationBuilder app)
+        private readonly RequestDelegate _next;
+
+        public MyMiddleware(RequestDelegate next)
         {
-            /// Hozzáférés biztosítása a service csomagokhoz.
-            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            _next = next;
+
+        }
+
+        public async Task Invoke(HttpContext httpContext)
+        {
+            using (var serviceScope = httpContext.RequestServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
             {
-                /// Context kiolvasása a service csomagokból.
-                using (FormulaContext context = serviceScope.ServiceProvider.GetService<FormulaContext>())
+                using (CRUDAppContext crudAppContext = serviceScope.ServiceProvider.GetService<CRUDAppContext>())
                 {
-                    /// Migration végrehajtása.
-                    context.Database.Migrate();
+                    crudAppContext.Database.Migrate();
                 }
             }
+            await _next(httpContext); // calling next middleware
+
+        }
+    }
+
+    // Extension method used to add the middleware to the HTTP request pipeline.
+    public static class MyMiddlewareExtensions
+    {
+        public static IApplicationBuilder UseMyMiddleware(this IApplicationBuilder builder)
+        {
+            return builder.UseMiddleware<MyMiddleware>();
         }
     }
 }

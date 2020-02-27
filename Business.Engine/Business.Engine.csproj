@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business.Entities\Business.Entities.csproj" />
+    <ProjectReference Include="..\Core.ApplicationCore\Core.ApplicationCore.csproj" />
     <ProjectReference Include="..\Core.Common\Core.Common.csproj" />
     <ProjectReference Include="..\Data.DataAccessLayer\Data.DataAccessLayer.csproj" />
   </ItemGroup>

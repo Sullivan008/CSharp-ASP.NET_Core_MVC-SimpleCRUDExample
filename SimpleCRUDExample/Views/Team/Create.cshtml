@@ -1,0 +1,54 @@
+﻿@model SimpleCRUDExample.Models.Team.CreateViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@Html.Partial("~/Views/Shared/_ErrorMessage.cshtml")
+
+<h4 class="text-center">Create a new Team</h4>
+<hr />
+
+<div class="row justify-content-md-center">
+    <div class="col-md-8">
+        <form asp-action="Create" method="post">
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Unique name is required!" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label asp-for="YearOfFoundation"></label>
+                    <select asp-for="YearOfFoundation" class="form-control"
+                            asp-items="Enumerable.Range(1900, DateTime.Now.Year + 1 - 1900).OrderByDescending(x => x).Select(i => new SelectListItem { Text = i.ToString(), Value = i.ToString() })">
+                        @Model.YearOfFoundation
+                        </select>
+                        <span asp-validation-for="YearOfFoundation" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label asp-for="NumberOfWonWorldChampionships"></label>
+                        <input asp-for="NumberOfWonWorldChampionships" min="0" class="form-control" />
+                        <span asp-validation-for="NumberOfWonWorldChampionships" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group text-center">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="IsPaidEntryFee" /> @Html.DisplayNameFor(model => model.IsPaidEntryFee)
+                    </label>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-save"></i> Save
+                        </button>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <a asp-action="Index" class="btn btn-secondary btn-block">
+                            <i class="fa fa-table"></i> Back to the list
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>

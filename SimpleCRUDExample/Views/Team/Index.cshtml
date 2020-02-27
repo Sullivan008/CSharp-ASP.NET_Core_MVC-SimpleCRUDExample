@@ -1,0 +1,62 @@
+﻿@model IEnumerable<SimpleCRUDExample.Models.Team.TeamListViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@Html.PartialAsync("_RegistrationResult").Result
+
+<h1 class="text-center">Teams</h1>
+
+<br />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.YearOfFoundation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfWonWorldChampionships)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPaidEntryFee)
+            </th>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <th>
+                    <a asp-action="Create" class="btn btn-outline-success"><i class="far fa-plus-square"></i> New Team</a>
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.YearOfFoundation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfWonWorldChampionships)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsPaidEntryFee)
+                </td>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><i class="fa fa-marker fa-lg"></i></a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="text-danger ml-1" onclick="return confirm('Are you sure you want to delete this row?')"><i class="fa fa-trash-alt fa-lg"></i></a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

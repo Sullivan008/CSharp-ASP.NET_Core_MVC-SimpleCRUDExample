@@ -1715,49 +1715,33 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Business.Entities/1.0.0": {
+      "Core.ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.6",
-          "Microsoft.Extensions.Identity.Stores": "2.2.0"
+          "Data.DataAccessLayer": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Business.Entities.dll": {}
+          "bin/placeholder/Core.ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Business.Entities.dll": {}
+          "bin/placeholder/Core.ApplicationCore.dll": {}
         }
       },
       "Core.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "Core.Handlers.BackEndExceptionHandler": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Core.Common.dll": {}
         },
         "runtime": {
           "bin/placeholder/Core.Common.dll": {}
-        }
-      },
-      "Core.Handlers.BackEndExceptionHandler/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/Core.Handlers.BackEndExceptionHandler.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Core.Handlers.BackEndExceptionHandler.dll": {}
         }
       },
       "Data.DataAccessLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
-          "Business.Entities": "1.0.0",
-          "Core.Handlers.BackEndExceptionHandler": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.2.0",
           "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
@@ -5724,20 +5708,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Business.Entities/1.0.0": {
+    "Core.ApplicationCore/1.0.0": {
       "type": "project",
-      "path": "../Business.Entities/Business.Entities.csproj",
-      "msbuildProject": "../Business.Entities/Business.Entities.csproj"
+      "path": "../Core.ApplicationCore/Core.ApplicationCore.csproj",
+      "msbuildProject": "../Core.ApplicationCore/Core.ApplicationCore.csproj"
     },
     "Core.Common/1.0.0": {
       "type": "project",
       "path": "../Core.Common/Core.Common.csproj",
       "msbuildProject": "../Core.Common/Core.Common.csproj"
-    },
-    "Core.Handlers.BackEndExceptionHandler/1.0.0": {
-      "type": "project",
-      "path": "../Core.Handlers.BackEndExceptionHandler/Core.Handlers.BackEndExceptionHandler.csproj",
-      "msbuildProject": "../Core.Handlers.BackEndExceptionHandler/Core.Handlers.BackEndExceptionHandler.csproj"
     },
     "Data.DataAccessLayer/1.0.0": {
       "type": "project",
@@ -5747,7 +5726,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Business.Entities >= 1.0.0",
+      "Core.ApplicationCore >= 1.0.0",
       "Core.Common >= 1.0.0",
       "Data.DataAccessLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
@@ -5755,23 +5734,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kozakp\\.nuget\\packages\\": {},
+    "C:\\Users\\peter.kozak\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
+      "projectUniqueName": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
       "projectName": "Business.Engine",
-      "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
-      "packagesPath": "C:\\Users\\kozakp\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\obj\\",
+      "projectPath": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\Business.Engine.csproj",
+      "packagesPath": "C:\\Users\\peter.kozak\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Engine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kozakp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peter.kozak\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5784,14 +5763,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj": {
-              "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Business.Entities\\Business.Entities.csproj"
+            "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.ApplicationCore\\Core.ApplicationCore.csproj": {
+              "projectPath": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.ApplicationCore\\Core.ApplicationCore.csproj"
             },
-            "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {
-              "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj"
+            "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj": {
+              "projectPath": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Core.Common\\Core.Common.csproj"
             },
-            "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
-              "projectPath": "c:\\Users\\kozakp\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
+            "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj": {
+              "projectPath": "c:\\Users\\peter.kozak\\Documents\\Repositories\\C#\\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\\Data.DataAccessLayer\\Data.DataAccessLayer.csproj"
             }
           }
         }
@@ -5817,10 +5796,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

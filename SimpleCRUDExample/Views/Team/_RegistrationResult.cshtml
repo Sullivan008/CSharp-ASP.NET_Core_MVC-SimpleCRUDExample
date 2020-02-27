@@ -1,0 +1,22 @@
+﻿@using SimpleCRUDExample.Models.Account
+
+@if (TempData.ContainsKey("RegistrationResult"))
+{
+    RegistrationResultViewModel registrationResultViewModel = (TempData["RegistrationResult"] as RegistrationResultViewModel);
+
+    var isSuccess = registrationResultViewModel?.IsSuccess;
+
+    if (isSuccess != null && (bool)isSuccess)
+    {
+        @Html.Raw("<div class='alert alert-success'>")
+    }
+    else
+    {
+        @Html.Raw("<div class='alert alert-danger'>")
+    }
+
+    <a class="close" data-dismiss="alert">×</a>
+    <p>@Html.Raw(registrationResultViewModel?.Message)</p>
+
+    @Html.Raw("</div>")
+}

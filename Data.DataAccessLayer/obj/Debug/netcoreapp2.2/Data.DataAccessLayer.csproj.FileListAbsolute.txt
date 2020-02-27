@@ -40,3 +40,10 @@ c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Pro
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.csproj.CopyComplete
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.AssemblyInfoInputs.cache
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.AssemblyInfo.cs
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\obj\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb
+C:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.deps.json
+C:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.dll
+C:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Data.DataAccessLayer\bin\Debug\netcoreapp2.2\Data.DataAccessLayer.pdb

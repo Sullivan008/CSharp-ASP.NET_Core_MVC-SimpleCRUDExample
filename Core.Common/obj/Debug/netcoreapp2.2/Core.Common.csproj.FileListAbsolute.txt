@@ -34,3 +34,10 @@ c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Pro
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.csproj.CopyComplete
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.dll
 c:\Users\kozakp\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.pdb
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.deps.json
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.dll
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\bin\Debug\netcoreapp2.2\Core.Common.pdb
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfoInputs.cache
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.AssemblyInfo.cs
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.dll
+c:\Users\peter.kozak\Documents\Repositories\C#\CSharp-ASP.NET_MVC_Core-FormulaOne_Project\Core.Common\obj\Debug\netcoreapp2.2\Core.Common.pdb
