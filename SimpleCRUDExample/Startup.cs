@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SimpleCRUDExample.Core.Configurations;
-using SimpleCRUDExample.Core.Middlewares;
 using SimpleCRUDExample.Core.Models.ConfigModels;
 
 namespace SimpleCRUDExample
@@ -38,7 +37,7 @@ namespace SimpleCRUDExample
             services.ConfigureAuthService();
             services.ConfigureCookieService();
             services.Configure<LoginConfigModel>(_configuration.GetSection("DevLoginConfig"));
-            
+
             services.ConfigureBusinessEngines();
             services.ConfigureCoreModules();
 
@@ -47,7 +46,7 @@ namespace SimpleCRUDExample
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, CRUDAppContext context)
         {
             if (env.IsDevelopment())
             {
@@ -62,9 +61,8 @@ namespace SimpleCRUDExample
             app.UseCookiePolicy();
 
             app.UseAuthentication();
-  
 
-            app.UseApplicationDeploy();
+            context.Database.Migrate();
 
             app.UseMvc(routes =>
             {
